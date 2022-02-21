@@ -1,0 +1,22 @@
+.menu-right__link{
+  font-size: 14px;
+  font-weight: 500;
+  color: #464646;
+  margin-right: 14px;
+  transition: 0.2s all;
+}
+
+.menu-right__link:hover{
+  color: #5595E9;
+  text-decoration: underline;
+}
+
+.menu-right__item:last-child .menu-right__link{
+  margin-right: 0;
+}
+
+@media screen and (max-width: 360px) {
+  .menu-right__link{
+    font-size: 12px;
+  }
+}

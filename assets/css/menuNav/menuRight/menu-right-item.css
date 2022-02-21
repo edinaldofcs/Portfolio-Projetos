@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+  .menu-right__list .menu-right__item{
+    display: none;
+  }
+  .menu-right__item:last-child{
+    display: block;
+  }
+}

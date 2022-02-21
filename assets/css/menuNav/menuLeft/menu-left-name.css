@@ -1,0 +1,18 @@
+.menu-left__name{
+  color: #464646;
+  font-size: 14px;
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-left__name{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .menu-left__name{
+    font-size: 12px;
+  }
+}

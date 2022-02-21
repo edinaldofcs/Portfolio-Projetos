@@ -1,0 +1,17 @@
+.sobre__social--img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 580px) {
+  .sobre__social--img{
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .sobre__social--img{
+    display: none;
+  }
+}

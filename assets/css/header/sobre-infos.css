@@ -1,0 +1,17 @@
+.sobre__infos{
+  font-size: 16px;
+  line-height: 19px;
+}
+
+@media screen and (max-width: 768px) {
+  .sobre__infos{
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .sobre__infos{
+    font-size: 16px;
+  }
+}

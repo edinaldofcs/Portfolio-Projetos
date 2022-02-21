@@ -1,0 +1,19 @@
+.sobre-mim__texto{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 16px;
+  width: 75%;  
+  transition: 0.5s all;
+}
+
+.sobre-mim__texto:nth-of-type(3){
+  font-family: 'Kristi', sans-serif;
+  font-size: 42px;
+}
+
+@media screen and (max-width: 768px) {
+  .sobre-mim__texto{
+    width: 100%;  
+  }
+}

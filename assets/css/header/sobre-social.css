@@ -1,0 +1,16 @@
+.sobre__social{
+  margin-right: 26px;
+}
+
+@media screen and (max-width: 580px) {
+  .sobre__social{
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .sobre__social{
+    margin-right: 8px;
+  }
+}
+

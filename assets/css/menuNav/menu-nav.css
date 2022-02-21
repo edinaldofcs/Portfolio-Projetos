@@ -1,0 +1,12 @@
+.menu-nav{
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 360px) {
+  .menu-nav{    
+    padding: 14px 8px;
+  }
+}

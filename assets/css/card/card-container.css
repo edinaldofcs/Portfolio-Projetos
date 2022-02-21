@@ -1,0 +1,19 @@
+.card__container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: fit-content;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .card__container{
+    justify-content: initial;
+  }
+}
+@media screen and (max-width: 723px) {
+  .card__container{
+    justify-content: center;
+  }
+}
