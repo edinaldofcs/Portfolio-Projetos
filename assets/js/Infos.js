@@ -5,7 +5,7 @@ export const dataBase = (cor) => {
   return {
     nome: "Edinaldo Fernandes",
     email: "edinaldofcs@gmail.com",
-    imgPerfil:'../assets/img/me.png',
+    imgPerfil:'assets/img/me.png',
     redesSociais: [{
       redeSocial: "Github ",
       link: "https://github.com/Edinaldofcs",

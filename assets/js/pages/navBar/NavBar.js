@@ -10,7 +10,7 @@ export function NavBar() {
 
   const div = montarElemento('div','menu-left') ;
   const imagem = montarElemento('img','menu-left__img') ;
-  imagem.src = '../../../assets/img/icon.svg'
+  imagem.src = 'assets/img/icon.svg'
   const paragrafo = montarElemento('p','menu-left__name') ;
   paragrafo.textContent = infos.nome
 

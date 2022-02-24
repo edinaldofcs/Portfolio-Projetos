@@ -46,7 +46,7 @@
       link.textContent=element.redeSocial
   
       const imgLink = montarElemento('img', 'sobre__social--img');
-      imgLink.src =  `../../../assets/img/seta.png`
+      imgLink.src =  `assets/img/seta.png`
   
       divLinks.appendChild(containerSpan)
       containerSpan.appendChild(link)
