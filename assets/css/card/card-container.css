@@ -1,9 +1,8 @@
 .card__container{
-  margin-top: 20px;
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
-  width: fit-content;
+  justify-content: space-evenly;
+  margin-top: 20px;
   width: 100%;
 }
 
@@ -12,7 +11,7 @@
     justify-content: initial;
   }
 }
-@media screen and (max-width: 723px) {
+@media screen and (max-width: 709px) {
   .card__container{
     justify-content: center;
   }

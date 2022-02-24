@@ -1,0 +1,14 @@
+.formacao__img{
+  height: auto;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  width: 70%;
+}
+
+@media screen and (max-width: 480px) {
+  .formacao__img{
+    width: 60%;
+  }
+}

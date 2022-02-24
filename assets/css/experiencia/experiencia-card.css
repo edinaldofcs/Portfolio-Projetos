@@ -1,0 +1,17 @@
+.experiencia__card{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;    
+  width: 100%;
+}
+
+.reverse{
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 768px) {
+  .experiencia__card{
+    align-items: center;
+    flex-direction: column;
+  }
+}

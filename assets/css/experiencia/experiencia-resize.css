@@ -1,0 +1,7 @@
+
+@media screen and (max-width: 768px) {
+  .experiencia__resize{
+    background-color: #fff;
+    width: calc(100% - 40px);
+  }  
+}

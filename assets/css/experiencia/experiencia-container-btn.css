@@ -1,0 +1,24 @@
+.experiencia__container--btn{
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.light{
+  color: #2A7AE4;
+  border: 1px solid #2A7AE4;
+}
+.light:hover{
+  background-color: #D4E4FA;
+}
+
+.dark{
+  background-color: #2A7AE4;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.dark:hover{
+  background-color: #5595E9;
+  color: #fff;
+}

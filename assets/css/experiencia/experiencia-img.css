@@ -1,0 +1,16 @@
+.experiencia__img{
+  margin: 0 20px;
+  width:400px;
+}
+
+@media screen and (max-width: 768px) {
+  .experiencia__img{
+    width:calc(80% - 40px);
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .experiencia__img{
+    width:calc(100% - 40px);
+  }
+}

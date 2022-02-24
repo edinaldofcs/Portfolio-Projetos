@@ -1,24 +1,32 @@
 .card__cards{
-  width: 100px;
-  height: 100px;
-  margin: 1%;
+  background: #FFFFFF;
+  box-shadow: 0px 12px 40px -5px rgba(28, 29, 4, 0.15);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  height: 100px;
+  margin: 1%;
   padding: 10px;
-  background: #FFFFFF;
-  box-shadow: 0px 12px 40px -5px rgba(28, 29, 4, 0.15);
   position: relative;
+  width: 100px;
 }
 
 .card__cards:nth-last-child(){
   margin-right: 0;
 }
 
+.card__cards:hover{
+  filter: brightness(1.4);  
+  transform: scale(1.1);
+}
 @media screen and (max-width: 768px) {
   .card__cards{
-    width: 154px;
     height: 118px;    
+    width: 154px;
+  }
+  .card__cards:hover{
+    filter: brightness(1.4);  
+    transform: scale(1.05);
   }
 }
 

@@ -1,0 +1,54 @@
+.animation{
+  position: fixed;
+  bottom: 20%;
+  right: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 0px;
+  height: 310px;
+  z-index: 1;
+  background-color: #fff;
+  border: 1px solid #2A7AE4;
+  transition: 0.2s all;
+}
+
+.animation__title{
+  position: absolute;
+  background-color: #2A7AE4;
+  color: #fff;
+  left:-165px;
+  text-align: center;
+  width: 312px;
+  height: 30px;
+  padding: 5px 0;
+  top:139px;
+  cursor: pointer;
+  transform: rotate(270deg);  
+}
+
+.show{
+  width: 260px;
+}
+
+.animation__texts{
+  overflow: hidden;
+  width: 80%;
+}
+.animation__texts p{
+  font-size: 20px;
+  text-align: right;
+  line-height:50px;
+}
+
+.animation__color{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.animation__item{
+  margin: 5px 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}

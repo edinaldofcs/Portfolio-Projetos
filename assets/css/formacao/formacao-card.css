@@ -1,0 +1,19 @@
+.formacao__card{
+  margin: 0 5px;
+  margin-top: 10px;
+  text-align: left;
+  width:25%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .formacao__card{
+    width:31%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .formacao__card{
+    width:80%;
+  }
+}
