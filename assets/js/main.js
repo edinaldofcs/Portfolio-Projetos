@@ -4,7 +4,7 @@ import { SkillsAndHobbies } from "./pages/SkillsAndHobbies/SkillsAndHobbies.js";
 import { Sobre } from './pages/sobre/Sobre.js';
 import { Formacao } from "./pages/formacao/Formacao.js";
 import { Experiencia } from "./pages/experiencia/Experiencia.js";
-import { Contato } from './pages/contato/contato.js';
+import { Contato } from './pages/contato/Contato.js';
 import { Rodape } from './pages/rodape/Rodape.js';
 import { Acessibilidade } from './pages/acessibilidade/Acessibilidade.js';
 
