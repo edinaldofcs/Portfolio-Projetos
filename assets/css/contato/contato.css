@@ -1,0 +1,15 @@
+.contato{
+  width: 100%;
+  padding: 10px 40px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  background-color: #EAF2FD;
+}
+
+@media screen and (max-width: 768px) {
+  .contato{
+    padding: 10px 20px;
+  }
+}

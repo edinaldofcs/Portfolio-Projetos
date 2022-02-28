@@ -11,8 +11,9 @@ const cores = () => {
   var programar = document.getElementById('programar');
   var viajar = document.getElementById('viajar');
   var cantar = document.getElementById('cantar');
+  var contato = document.getElementById('contato');
 
-  return [js, react, html, css, java, vba, violao, correr, leitura, programar, cantar, viajar]
+  return [js, react, html, css, java, vba, violao, correr, leitura, programar, cantar, viajar, contato]
 }
 
 export const changeIconColor = (cor) => {
@@ -34,8 +35,10 @@ export const changeBackColor = (cor) => {
 
   const texto = document.querySelector('.sobre-mim');
   const texto2 = document.querySelector('.formacao');
+  const texto3 = document.querySelector('.formulario');
   texto.style.background = cor;
   texto2.style.background = cor;
+  texto3.style.background = cor;
 
 }
 
@@ -86,8 +89,10 @@ export const changeTextColor = (cor) => {
   const texto3 = document.querySelectorAll('h1');
   const texto4 = document.querySelectorAll('h2');
   const texto5 = document.querySelectorAll('h3');
+  const texto6 = document.querySelectorAll('legend');
+ 
 
-  const todos = [texto, texto1, texto2, texto3, texto4, texto5]
+  const todos = [texto, texto1, texto2, texto3, texto4, texto5, texto6]
 
   todos.map((element) => {
     element.forEach((item) => {

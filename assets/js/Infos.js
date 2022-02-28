@@ -1,4 +1,4 @@
-import { vba, js, react, html, css, java, violao, correr, leitura, programar, cantar, viajar } from "./Icons.js"
+import { vba, js, react, html, css, java, violao, correr, leitura, programar, cantar, viajar,contato } from "./Icons.js"
 
 export const dataBase = (cor) => {
   // var cor = cores.primaria[cores.primaria.length-1];
@@ -81,7 +81,7 @@ export const dataBase = (cor) => {
       {
         imagem: 'assets/img/image8.png',
         nome: 'Análise de dados',
-        status: '2018 - UFRP'
+        status: '2018 - UFPR'
       },
       {
         imagem: 'assets/img/image8.png',
@@ -98,14 +98,20 @@ export const dataBase = (cor) => {
       {
         imagem: 'assets/img/image8.png',
         titulo: 'Análise de dados',
-        subtitulo: '2018 - UFRP'
+        subtitulo: '2018 - UFPR'
       },
       {
         imagem: 'assets/img/image8.png',
         titulo: 'Análise de dados',
-        subtitulo: '2018 - UFRP'
+        subtitulo: '2018 - UFPR'
       }
-    ]
+    ],
+    contact:{
+      imagem: contato(),
+      titulo: 'Contato',
+      texto1: 'Quer entrar em contato comigo?',
+      texto2: 'Preencha o formulário abaixo. Entrarei em contato o mais breve possível.'
+    }
 
   }
 }

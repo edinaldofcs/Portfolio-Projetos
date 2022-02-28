@@ -1,0 +1,17 @@
+.contato__img{
+  width: 50%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.contato__img svg{
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .contato__img{
+    display:none;
+  }
+}
