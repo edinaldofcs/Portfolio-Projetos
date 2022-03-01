@@ -3,6 +3,8 @@
   height: 160px;  
   position: relative;
   width: 100%;
+  transition: 1s all ease-in-out;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
@@ -16,4 +18,9 @@
   .formacao__container--img{ 
     height: 100px;
   }
+}
+
+.formacao__container--img:hover{ 
+  transform: scale(1.2);
+  z-index: 2;
 }

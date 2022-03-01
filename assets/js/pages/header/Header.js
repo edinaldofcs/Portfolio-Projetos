@@ -28,7 +28,7 @@
     h1.textContent = `Olá, meu nome é ${infos.nome} e construo páginas web`;
 
     const paragrafo = montarElemento('p', 'sobre__infos');
-    paragrafo.textContent = `Faço faculdade de Ciência da Computação na faculdade Descomplica e atualmente estou participando de um curso da Awari e do projeto Oracle ONE na Alura`;
+    paragrafo.textContent = `Faço faculdade de Ciência da Computação na faculdade Descomplica e atualmente estou participando de um curso da Awari e do projeto Oracle ONE na Alura.`;
 
     section.appendChild(divSobre);
     divSobre.appendChild(h1)

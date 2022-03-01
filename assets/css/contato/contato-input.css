@@ -2,9 +2,9 @@
   display: block;
   margin-bottom: 16px;
   width:100%;
-  height: 40px;
+  height: 50px;
   padding-left: 5px;
-  padding-top: 5px;
+  padding-top: 22px;
   border: none;  
 }
 
@@ -19,8 +19,78 @@
 
 .contato__input:nth-of-type(4){
   margin-left: 0;
-  width: fit-content;
   padding: 10px;
 }
 
+.contato__input--label{
+  position: absolute; 
+  top: 72px;
+  left: 16px;
+  transition: all .25s;
+  font-size: 20px;
+}
+.contato__input--label:nth-of-type(2){
+  top: 140px;
+}
+.contato__input--label:nth-of-type(3){
+  top: 208px;
+}
 
+.contato__input:not(:placeholder-shown) + .contato__input--label, .contato__input:focus + .contato__input--label {
+  font-size: 12px;
+  transition: all .25s;
+}
+.contato__input:nth-of-type(1):not(:placeholder-shown) + .contato__input--label, .contato__input:nth-of-type(1):focus + .contato__input--label {
+  top: calc(75px - 9px);
+}
+.contato__input:nth-of-type(2):not(:placeholder-shown) + .contato__input--label, .contato__input:nth-of-type(2):focus + .contato__input--label {
+  top: calc(140px - 9px);
+}
+.contato__input:nth-of-type(3):not(:placeholder-shown) + .contato__input--label, .contato__input:nth-of-type(3):focus + .contato__input--label {
+  top: calc(208px - 9px);
+}
+
+.contato__input::placeholder {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 550px){
+  .contato__input--label{
+    top: 94px;
+  }
+  .contato__input--label:nth-of-type(2){
+    top: 160px;
+  }
+  .contato__input--label:nth-of-type(3){
+    top: 226px;
+  }
+  .contato__input:nth-of-type(1):not(:placeholder-shown) + .contato__input--label, .contato__input:nth-of-type(1):focus + .contato__input--label {
+    top: calc(94px - 9px);
+  }
+  .contato__input:nth-of-type(2):not(:placeholder-shown) + .contato__input--label, .contato__input:nth-of-type(2):focus + .contato__input--label {
+    top: calc(160px - 9px);
+  }
+  .contato__input:nth-of-type(3):not(:placeholder-shown) + .contato__input--label, .contato__input:nth-of-type(3):focus + .contato__input--label {
+    top: calc(226px - 9px);
+  }
+}
+@media screen and (max-width: 312px){
+  .contato__input--label{
+    top: 110px;
+  }
+  .contato__input--label:nth-of-type(2){
+    top: 176px;
+  }
+  .contato__input--label:nth-of-type(3){
+    top: 242px;
+  }
+  .contato__input:nth-of-type(1):not(:placeholder-shown) + .contato__input--label, .contato__input:nth-of-type(1):focus + .contato__input--label {
+    top: calc(110px - 9px);
+  }
+  .contato__input:nth-of-type(2):not(:placeholder-shown) + .contato__input--label, .contato__input:nth-of-type(2):focus + .contato__input--label {
+    top: calc(176px - 9px);
+  }
+  .contato__input:nth-of-type(3):not(:placeholder-shown) + .contato__input--label, .contato__input:nth-of-type(3):focus + .contato__input--label {
+    top: calc(242px - 9px);
+  }
+}

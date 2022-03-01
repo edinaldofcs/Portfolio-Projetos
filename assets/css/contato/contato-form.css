@@ -6,9 +6,9 @@
 }
 
 .contato__form  fieldset{
-  border: none;
+  border: none;  
+  position: relative;
 }
-
 
 @media screen and (max-width: 768px) {
   .contato__form{

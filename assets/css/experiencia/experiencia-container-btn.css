@@ -23,3 +23,8 @@
   background-color: #5595E9;
   color: #fff;
 }
+
+.btn-enviar, .btn-enviar:hover{
+  background-color: green;
+  color: #fff;
+}

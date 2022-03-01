@@ -1,6 +1,7 @@
 .experiencia__img{
   margin: 0 20px;
-  width:400px;
+  max-width:600px;
+  max-height: 400px;
 }
 
 @media screen and (max-width: 768px) {

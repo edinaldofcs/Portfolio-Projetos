@@ -33,11 +33,15 @@ export function Experiencia() {
     divExp.appendChild(paragrafo);
 
     const divContainerBtn = montarElemento('div', 'experiencia__container--botao');
-    const btnLight = montarElemento('p', 'experiencia__container--btn');
+    const btnLight = montarElemento('a', 'experiencia__container--btn');
     btnLight.classList.add('light')
+    btnLight.href = element.repositorio
+    btnLight.target = '_blank'
     btnLight.textContent = "Repositório";
-    const btnDark = montarElemento('p', 'experiencia__container--btn');
+    const btnDark = montarElemento('a', 'experiencia__container--btn');
     btnDark.classList.add('dark')
+    btnDark.href = element.demo
+    btnDark.target = '_blank'
     btnDark.textContent = "Demo";
 
     divContainerBtn.appendChild(btnLight);

@@ -5,7 +5,7 @@
   /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
-  background-color: #EAF2FD;
+  background-color: #EAF2FD;  
 }
 
 @media screen and (max-width: 768px) {

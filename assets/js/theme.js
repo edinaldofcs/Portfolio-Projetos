@@ -35,7 +35,7 @@ export const changeBackColor = (cor) => {
 
   const texto = document.querySelector('.sobre-mim');
   const texto2 = document.querySelector('.formacao');
-  const texto3 = document.querySelector('.formulario');
+  const texto3 = document.querySelector('.contato');
   texto.style.background = cor;
   texto2.style.background = cor;
   texto3.style.background = cor;
@@ -106,6 +106,8 @@ export const changeTextColor = (cor) => {
 export const changeBodyColor = (cor) => {
 
   const bodyColor = document.querySelector('body');
+  const footerColor = document.querySelector('footer');
 
   bodyColor.style.backgroundColor = cor;
+  footerColor.style.backgroundColor = cor;
 }
