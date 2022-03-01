@@ -25,7 +25,13 @@ export function NavBar() {
     const li = montarElemento('li','menu-right__item') 
     const link = montarElemento('a','menu-right__link') 
     link.innerHTML = element;
-    link.href = `#${element}`
+
+    if(index == itens.length - 1){
+      link.href = `mailto:${element}`
+    }else{
+      link.href = `#${element}`
+    }
+
     ul.appendChild(li)
     li.appendChild(link)
   })  
