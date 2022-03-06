@@ -1,5 +1,5 @@
-# Portifolio-Projetos
-## Para a construção deste portifólio, forma utilizadas as seguintes tecnologias:
+# Portfolio-Projetos
+## Para a construção deste portfólio, forma utilizadas as seguintes tecnologias:
 - HTML
 - CSS
 - Javascript
