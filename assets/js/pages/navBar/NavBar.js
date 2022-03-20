@@ -11,6 +11,7 @@ export function NavBar() {
   const div = montarElemento('div','menu-left') ;
   const imagem = montarElemento('img','menu-left__img') ;
   imagem.src = 'assets/img/icon.svg'
+  imagem.alt = 'Imagem de três estrelas, ao lado do nome do autor do site'
   const paragrafo = montarElemento('p','menu-left__name') ;
   paragrafo.textContent = infos.nome
 

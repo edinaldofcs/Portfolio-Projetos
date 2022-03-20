@@ -20,6 +20,7 @@ export function Experiencia() {
     const divContainerImg = montarElemento('div', 'experiencia__resize');
     const img = montarElemento('img', 'experiencia__img');
     img.src = element.imagem;
+    img.alt = element.acessibilidade;
 
     divContainerImg.appendChild(img)
     divContainerCard.appendChild(divContainerImg);    

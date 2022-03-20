@@ -34,7 +34,11 @@
   overflow: hidden;
   width: 80%;
 }
-.animation__texts p{
+
+label{
+  display: block;
+}
+.animation__texts label{
   font-size: 20px;
   text-align: right;
   line-height:50px;
