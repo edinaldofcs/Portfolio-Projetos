@@ -106,6 +106,14 @@ export const dataBase = (cor) => {
         acessibilidade: 'Uma tela de login, como plano de fundo do Guy Sansei - do Anime, Naruto - em posição de luta.'
       },
       {
+        imagem: 'https://drive.google.com/uc?export=view&id=1TWxpIF8tj6SIgjes5bCytDm3AAApm07A',
+        titulo: 'Pokedex',
+        subtitulo: '2022 - Pokedex_API',
+        demo: "https://edinaldofcs.github.io/Pokedex_API_JS/",
+        repositorio: "https://github.com/edinaldofcs/Pokedex_API_JS",
+        acessibilidade: 'Imagem de animais fictícios do desenho pokémon.'
+      },
+      {
         imagem: 'https://drive.google.com/uc?export=view&id=1Dr0b6zuUA62n85QwWBfplsei8hNF1KEc',
         titulo: 'Jogo da forca',
         subtitulo: '2022 - Alura',
