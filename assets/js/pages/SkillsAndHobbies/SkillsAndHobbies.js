@@ -11,15 +11,7 @@ import { montarElemento } from "../../Functions.js";
 
 
 export function SkillsAndHobbies(text) {  
-  var obj;
-
-  if(text.toLocaleLowerCase() == 'skills'){
-    obj = infos.cards.skills
-  }  
-
-  if(text.toLocaleLowerCase() == 'hobbies'){
-    obj = infos.cards.hobbies
-  }  
+  var obj = chooseData(text)
   
   var section = montarElemento('section','card');
   const h3 = montarElemento('h3','card__titulo');  
@@ -51,4 +43,12 @@ export function SkillsAndHobbies(text) {
   var root = document.getElementById('root')
   root.appendChild(section);
 
+}
+
+
+function chooseData(text){
+  if(text.toLocaleLowerCase() == 'skills'){
+    return infos.cards.skills
+  }  
+    return infos.cards.hobbies  
 }

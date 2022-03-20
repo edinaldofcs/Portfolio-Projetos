@@ -21,6 +21,7 @@ export function Formacao() {
     const divContainerImg = montarElemento('div', 'formacao__container--img');
     const img = montarElemento('img', 'formacao__img');
     img.src = element.imagem;
+    img.alt = element.acessibilidade;
     divContainerImg.appendChild(img);
     divContainerCard.appendChild(divContainerImg);
     const paragrafo1 = montarElemento('p', 'formacao__info');

@@ -5,22 +5,22 @@
 }
 
 .light{
-  color: #2A7AE4;
-  border: 1px solid #2A7AE4;
+  color: #012c66;
+  border: 1px solid #012c66;
 }
 .light:hover{
   background-color: #D4E4FA;
 }
 
 .dark{
-  background-color: #2A7AE4;
+  background-color: #012c66;
   color: #fff;
   margin-left: 10px;
   border: none;
 }
 
 .dark:hover{
-  background-color: #5595E9;
+  background-color: #034294;
   color: #fff;
 }
 

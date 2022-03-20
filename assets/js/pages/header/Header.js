@@ -47,6 +47,7 @@
   
       const imgLink = montarElemento('img', 'sobre__social--img');
       imgLink.src =  `assets/img/seta.png`
+      imgLink.alt =  `Clique para acessar o meu ${element.redeSocial}`
   
       divLinks.appendChild(containerSpan)
       containerSpan.appendChild(link)
@@ -57,6 +58,7 @@
     const divAvatar = montarElemento('div', 'sobre__avatar');
     const imgAvatar = montarElemento('img', 'sobre__avatar--img');
     imgAvatar.src =  infos.imgPerfil;
+    imgAvatar.alt =  `Foto do rosto de um homem sorridente, de pele negra e cabelo raspado.`;
     
     section.appendChild(divAvatar)
     divAvatar.appendChild(imgAvatar)
