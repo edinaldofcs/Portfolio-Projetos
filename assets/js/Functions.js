@@ -1,4 +1,4 @@
-import {changeIconColor, changeBackColor, changeBtnColor, changeTextColor, changeBodyColor, changeBtnFontColor} from "./theme.js"
+import {changeIconColor, changeBackColor, changeBtnColor, changeTextColor, changeBodyColor, changeBtnFontColor} from "./pages/acessibilidade/theme.js"
 
 export function montarElemento(tag,classe){
   let element = document.createElement(tag);
