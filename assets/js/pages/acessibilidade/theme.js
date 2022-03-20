@@ -1,4 +1,6 @@
-const cores = () => {
+import { coresLocalStorage } from "../contato/storage.js"
+
+export const cores = () => {
   var js = document.getElementById('js');
   var react = document.getElementById('react');
   var html = document.getElementById('html');
@@ -16,7 +18,11 @@ const cores = () => {
   return [js, react, html, css, java, vba, violao, correr, leitura, programar, cantar, viajar, contato]
 }
 
-export const changeIconColor = (cor) => {
+export const changeIconColor = (cor, validar = true) => {
+
+  if(validar){
+    coresLocalStorage.atualizarLocalStorage('icones', cor); 
+  }
 
   const icons = cores();
 
@@ -31,18 +37,24 @@ export const changeIconColor = (cor) => {
   
 }
 
-export const changeBackColor = (cor) => {
+export const changeBackColor = (cor, validar = true) => {
+  if(validar){
+  coresLocalStorage.atualizarLocalStorage('titulos', cor); 
+  }
 
   const texto = document.querySelector('.sobre-mim');
   const texto2 = document.querySelector('.formacao');
   const texto3 = document.querySelector('.contato');
-  texto.style.background = cor;
-  texto2.style.background = cor;
-  texto3.style.background = cor;
+  texto.style.backgroundColor = cor;
+  texto2.style.backgroundColor = cor;
+  texto3.style.backgroundColor = cor;
 
 }
 
-export const changeBtnColor = (cor) => {
+export const changeBtnColor = (cor, validar = true) => {
+  if(validar){
+  coresLocalStorage.atualizarLocalStorage('botoes', cor);  
+  }
 
   const btn = document.querySelectorAll('.experiencia__container--btn')
 
@@ -69,7 +81,11 @@ export const changeBtnColor = (cor) => {
   })
 }
 
-export const changeBtnFontColor = (cor) => {
+export const changeBtnFontColor = (cor, validar = true) => {
+
+  if(validar){
+  coresLocalStorage.atualizarLocalStorage('botoes_Fontes', cor);
+  }  
 
   const btn = document.querySelectorAll('.experiencia__container--btn')
 
@@ -81,7 +97,11 @@ export const changeBtnFontColor = (cor) => {
 }
 
 
-export const changeTextColor = (cor) => {
+export const changeTextColor = (cor, validar = true) => {
+
+  if(validar){
+  coresLocalStorage.atualizarLocalStorage('fonte', cor);  
+  }
 
   const texto = document.querySelectorAll('a');
   const texto1 = document.querySelectorAll('p');
@@ -103,7 +123,11 @@ export const changeTextColor = (cor) => {
   })
 }
 
-export const changeBodyColor = (cor) => {
+export const changeBodyColor = (cor, validar = true) => {
+  
+  if(validar){
+  coresLocalStorage.atualizarLocalStorage('geral', cor);  
+  }
 
   const bodyColor = document.querySelector('body');
   const footerColor = document.querySelector('footer');
@@ -111,3 +135,4 @@ export const changeBodyColor = (cor) => {
   bodyColor.style.backgroundColor = cor;
   footerColor.style.backgroundColor = cor;
 }
+

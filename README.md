@@ -1,4 +1,7 @@
-# Portfolio-Projetos
+# Portfólio-Projetos
+
+- link do projeto: <a href="https://edinaldofcs.github.io/Portfolio-Projetos/" target="_blank">Ver Portfólio</a>
+
 ## Para a construção deste portfólio, forma utilizadas as seguintes tecnologias:
 - HTML
 - CSS
@@ -16,5 +19,16 @@
 ##Observações do projeto:
 - Responsividade
 - Modularização do HTML
-- Acessibilidade
-- Formulário de envio de emails funcional, com a utilização do `https://www.staticforms.xyz/`
+- Formulário de envio de emails funcional, com a utilização do ``https://www.staticforms.xyz/``
+
+### Acessibilidade
+- A acessibilidade segue quase todos os padrões da extensão <b>wave evaluation tool</b>;
+- Para acessar a o menu de ``Acessibilidade``, o usuário pode utilizar os seguintes comandos:
+  - alt + g: abrir menu;
+  - alt + h: Alterar fontes;
+  - alt + i: alterar background-geral;
+  - alt + j: alterar background-Titulos;
+  - alt + k: alterar ícones;
+  - alt + l: alterar background botões; e
+  - alt + m: alterar fonte dos botões.
+- Ao alterar as cores, as definições ficam salvas no LocalStorage

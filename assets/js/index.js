@@ -8,7 +8,8 @@ import { Contato } from './pages/contato/Contato.js';
 import { Rodape } from './pages/rodape/Rodape.js';
 import { Acessibilidade } from './pages/acessibilidade/Acessibilidade.js';
 import { eventosAcessibilidade } from './Functions.js';
-import { validarFormulario } from './Form.js';
+import { validarFormulario } from './pages/contato/Form.js';
+import {coresLocalStorage} from './pages/contato/storage.js';
 
 function app(){
   Acessibilidade();
@@ -21,6 +22,7 @@ function app(){
   Experiencia();
   Contato();
   Rodape();
+  coresLocalStorage.storage();
 }
 
 window.addEventListener("load", app());

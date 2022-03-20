@@ -1,5 +1,4 @@
 import { montarElemento } from "../../Functions.js";
-import { infos } from "../../Infos.js";
 
 export function Acessibilidade() {
   var root = document.getElementById('root');
