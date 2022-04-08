@@ -109,8 +109,8 @@ export const dataBase = (cor) => {
         imagem: 'https://drive.google.com/uc?export=view&id=1TWxpIF8tj6SIgjes5bCytDm3AAApm07A',
         titulo: 'Pokedex-React',
         subtitulo: '2022 - Pokedex_API_REACT',
-        demo: "https://edinaldofcs.github.io/Pokedex_API_JS/",
-        repositorio: "https://pokedex-react-edinaldofcs.vercel.app/",
+        demo: "https://pokedex-react-edinaldofcs.vercel.app/",
+        repositorio: "https://github.com/edinaldofcs/Pokedex-React",
         acessibilidade: 'Imagem de animais fictícios do desenho pokémon.'
       },
       {
