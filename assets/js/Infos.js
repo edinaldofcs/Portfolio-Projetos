@@ -111,7 +111,7 @@ export const dataBase = (cor) => {
         subtitulo: '2022 - Alura-Geek',
         demo: "https://edinaldofcs.github.io/AluraGeek/",
         repositorio: "https://github.com/edinaldofcs/AluraGeek",
-        acessibilidade: 'Uma tela de login, como plano de fundo do Guy Sansei - do Anime, Naruto - em posição de luta.'
+        acessibilidade: 'Página d venda de produtos'
       },
       {
         imagem: 'https://drive.google.com/uc?export=view&id=1TWxpIF8tj6SIgjes5bCytDm3AAApm07A',
