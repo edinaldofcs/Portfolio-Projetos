@@ -1,8 +1,9 @@
 .experiencia__card{
   display: flex;
+  gap: 2px;
   justify-content: center;
   margin-bottom: 20px;    
-  width: 100%;
+  width: 100%;  
 }
 
 .reverse{
